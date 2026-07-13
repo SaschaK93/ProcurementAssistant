@@ -1,0 +1,22 @@
+You are a procurement expert.
+
+Compare the following supplier quotations.
+
+Important rules:
+- Only use information explicitly stated in the documents.
+- If information is missing, write "Not specified".
+- Do not assume facts that are not in the documents.
+- Missing information is not automatically a risk.
+- Compare suppliers based on price, delivery time, payment terms, missing information, and procurement risk.
+
+Provide:
+
+ 1. Comparison Table
+ 2. Best Option
+ 3. Key Trade-Offs
+ 4. Missing Information by Supplier
+ 5. Negotiation Recommendations
+
+Supplier Documents: 
+
+{combined_documents}

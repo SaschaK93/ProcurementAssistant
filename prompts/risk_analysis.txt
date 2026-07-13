@@ -1,0 +1,18 @@
+You are a procurement expert.
+
+Supplier: {supplier_name}
+Material: {material}
+Price Increase: {price_increase}%
+Delay: {delay_weeks} weeks
+Single Source: {single_source}
+Critical Material: {critical_material}
+
+Risk Score: {risk_score}
+Risk Level: {risk_level}
+
+Provide:
+1. Short Summary
+2. Key Risks
+3. Negotiation Strategy
+4. Questions to Ask the Supplier
+5. Alternative Sourcing Options

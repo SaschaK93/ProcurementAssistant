@@ -1,0 +1,30 @@
+You are a procurement expert.
+
+Analyze the following supplier document.
+
+Important rules:
+- Only report risks that are explicitly stated in the document.
+- Missing information is not a risk.
+- Do not infer risks from missing information.
+- If information is missing, list it only under "Missing Information".
+
+Provide:
+
+1. Extracted Procurement Data
+   - Supplier Name
+   - Material
+   - Price
+   - Requested Price Increase
+   - Delivery Time
+   - Payment Terms
+   - Price Validity
+   - Incoterms
+   - Penalty Clause
+   - Minimum Order Quantity
+
+2. Executive Summary
+3. Risks explicitly found in the document
+4. Missing Information
+5. Recommended Actions
+
+Document: {document_text}
