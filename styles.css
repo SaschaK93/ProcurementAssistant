@@ -833,3 +833,24 @@ ul[role="listbox"] li:hover {
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
 }
+
+/* ============================================================
+   Selected value inside closed Selectbox
+   ============================================================ */
+
+[data-baseweb="select"] input {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+[data-baseweb="select"] input::placeholder {
+    color: #ffffff !important;
+}
+
+[data-baseweb="select"] span {
+    color: #ffffff !important;
+}
+
+[data-baseweb="select"] div {
+    color: #ffffff !important;
+}
