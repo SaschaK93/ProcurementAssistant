@@ -181,19 +181,22 @@ Executive Procurement Report
 
 ### Dashboard
 
-*(Add screenshot)*
+<img width="1619" height="570" alt="image" src="https://github.com/user-attachments/assets/4d5fc430-3578-401e-8e50-e44e357ba328" />
+
 
 ### Structured Procurement Analysis
 
-*(Add screenshot)*
+<img width="1043" height="847" alt="image" src="https://github.com/user-attachments/assets/1cae11a3-4ad6-40ab-9ece-1c096023295a" />
+
 
 ### Negotiation Strategy
 
-*(Add screenshot)*
+<img width="1022" height="802" alt="image" src="https://github.com/user-attachments/assets/c3b4a33f-f424-4964-85b5-1a8dbd3476a9" />
 
 ### Procurement Report
 
-*(Add screenshot)*
+<img width="473" height="816" alt="image" src="https://github.com/user-attachments/assets/b130cd92-da86-4c95-a1e9-ea6845cafae5" />
+
 
 ---
 
