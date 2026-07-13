@@ -854,3 +854,18 @@ ul[role="listbox"] li:hover {
 [data-baseweb="select"] div {
     color: #ffffff !important;
 }
+
+
+/* Selected item */
+[data-baseweb="select"] [id*="selected"] {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+[data-baseweb="select"] [class*="singleValue"] {
+    color: white !important;
+}
+
+[data-baseweb="select"] [class*="Value"] {
+    color: white !important;
+}
