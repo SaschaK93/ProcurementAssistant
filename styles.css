@@ -643,8 +643,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
-
+h6 {
+    color: var(--color-text) !important;
+}
 
 /* Streamlit text components */
 [data-testid="stMarkdown"],
