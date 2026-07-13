@@ -239,4 +239,4 @@ This project is licensed under the MIT License.
 **Sascha Knies**
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/SaschaK93
