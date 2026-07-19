@@ -1,46 +1,53 @@
-**AI Procurement Assistant
-AI-Powered Supplier Quotation Analysis and Procurement Decision Support**
+# AI Procurement Assistant
 
-An AI-powered procurement assistant built with **Python**, **Streamlit**, and the **OpenAI API**.
+**AI-Powered Supplier Quotation Analysis and Procurement Decision Support**
 
-The application helps procurement professionals analyze supplier quotations, extract structured procurement data, identify procurement risks, compare supplier offers, generate negotiation strategies, and create executive procurement reports.
+The AI Procurement Assistant is a Streamlit-based web application that leverages Large Language Models (OpenAI GPT-4.1-mini) to support procurement professionals throughout the supplier evaluation process.
+
+The application combines AI-driven document understanding with deterministic business rules to analyze supplier quotations, identify commercial risks, compare supplier offers, generate negotiation strategies, and produce management-ready procurement reports.
+
+The project demonstrates the practical integration of Generative AI into procurement workflows while maintaining explainable business logic for risk assessment.
 
 ---
 
-## Features
+# Features
 
-### Document Analysis
+## Document Analysis
 
-- Summarize supplier quotations and contracts
-- Extract structured procurement data using AI
-- Display procurement information in a structured dashboard
+- Upload TXT and PDF supplier quotations or contracts
+- AI-generated document summaries
+- Structured procurement data extraction
+- Procurement dashboard for extracted information
 
-### Business Rule Engine
+---
 
-Automatically evaluates procurement risks based on predefined business rules.
+## Business Rule Engine
 
-Examples include:
+Automatically evaluates procurement risks using predefined business rules.
 
-- Missing payment terms
-- Missing Incoterms
-- Missing penalty clauses
-- Long delivery times
-- Price increase evaluation
-- Minimum order quantity checks
+Current evaluations include:
 
-Each document receives:
+- Payment terms
+- Incoterms
+- Penalty clauses
+- Delivery time
+- Price increase
+- Minimum order quantity
+- Critical procurement information
+
+Each analysis generates:
 
 - Risk Score (0–100)
 - Risk Level (Low / Medium / High)
-- Detailed findings
+- Detailed business rule findings
 
 ---
 
-### Supplier Quote Comparison
+## Supplier Quote Comparison
 
 Compare multiple supplier quotations simultaneously.
 
-The assistant compares:
+Comparison categories include:
 
 - Price
 - Delivery time
@@ -49,18 +56,19 @@ The assistant compares:
 - Penalty clauses
 - Minimum order quantity
 - Price validity
+- Overall supplier recommendation
 
 ---
 
-### Negotiation Strategy
+## Negotiation Strategy Generation
 
-Generate an AI-assisted negotiation strategy based on:
+Generate AI-assisted supplier negotiation strategies based on:
 
-- Structured procurement data
+- Extracted procurement data
 - Business rule evaluation
 - Risk assessment
 
-The strategy includes:
+Generated outputs include:
 
 - Executive summary
 - Negotiation priorities
@@ -70,35 +78,37 @@ The strategy includes:
 
 ---
 
-### Procurement Report
+## Procurement Report Generation
 
-Generate a management-ready procurement report including:
+Generate management-ready procurement reports containing:
 
+- Executive summary
 - Supplier overview
 - Commercial terms
 - Business rule findings
 - Risk assessment
 - Procurement concerns
 - Negotiation recommendations
-- Executive summary
 
-Reports can be downloaded directly from the application.
+Reports can be exported directly as professionally formatted PDF documents.
 
 ---
 
-## Technology Stack
+# Technology Stack
 
 - Python
 - Streamlit
 - OpenAI API (GPT-4.1-mini)
 - JSON Structured Output
+- ReportLab (PDF Generation)
+- PyPDF
+- HTML / CSS
 - Custom Business Rule Engine
-- HTML/CSS
-- Session State
+- Streamlit Session State
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
 AI-Procurement-Assistant/
@@ -106,6 +116,11 @@ AI-Procurement-Assistant/
 │
 ├── app.py
 ├── risk_rules.py
+├── file_utils.py
+├── pdf_utils.py
+├── styles.css
+├── requirements.txt
+├── README.md
 │
 ├── prompts/
 │   ├── document_analysis.txt
@@ -114,14 +129,12 @@ AI-Procurement-Assistant/
 │   ├── negotiation_strategy.txt
 │   └── procurement_report.txt
 │
-├── styles.css
-├── requirements.txt
-└── README.md
+└── .env
 ```
 
 ---
 
-## Installation
+# Installation
 
 Clone the repository
 
@@ -131,7 +144,7 @@ git clone https://github.com/YOUR_USERNAME/AI-Procurement-Assistant.git
 cd AI-Procurement-Assistant
 ```
 
-Install dependencies
+Install the required packages
 
 ```bash
 pip install -r requirements.txt
@@ -151,95 +164,111 @@ streamlit run app.py
 
 ---
 
-## Workflow
+# Workflow
 
 ```text
-Supplier Quotation
-        │
-        ▼
-Document Analysis
-        │
-        ▼
+Supplier Quotation / Contract
+            │
+            ▼
+      Document Upload
+            │
+            ▼
+    AI Document Analysis
+            │
+            ▼
 Structured Data Extraction
-        │
-        ▼
-Business Rule Evaluation
-        │
-        ▼
-Risk Assessment
-        │
-        ▼
-Negotiation Strategy
-        │
-        ▼
-Executive Procurement Report
+            │
+            ▼
+ Business Rule Evaluation
+            │
+            ▼
+     Procurement Risk Score
+            │
+            ▼
+ Supplier Quote Comparison
+            │
+            ▼
+ Negotiation Strategy
+            │
+            ▼
+ Procurement Report (PDF)
 ```
 
 ---
 
-## Screenshots
+# Screenshots
 
-### Dashboard
-
-<img width="1619" height="570" alt="image" src="https://github.com/user-attachments/assets/4d5fc430-3578-401e-8e50-e44e357ba328" />
-
-
-### Structured Procurement Analysis
-
-<img width="1043" height="847" alt="image" src="https://github.com/user-attachments/assets/1cae11a3-4ad6-40ab-9ece-1c096023295a" />
-
-
-### Negotiation Strategy
-
-<img width="1022" height="802" alt="image" src="https://github.com/user-attachments/assets/c3b4a33f-f424-4964-85b5-1a8dbd3476a9" />
-
-### Procurement Report
-
-<img width="473" height="816" alt="image" src="https://github.com/user-attachments/assets/b130cd92-da86-4c95-a1e9-ea6845cafae5" />
-
+## Dashboard
+<img width="1625" height="527" alt="image" src="https://github.com/user-attachments/assets/4cefbc97-bec5-4336-aec6-2f24c9a8d47c" />
 
 ---
 
-## Current Version
-
-**Version 1.0**
-
-Implemented features:
-
-- Document Analysis
-- Structured Data Extraction
-- Business Rule Engine
-- Supplier Quote Comparison
-- Negotiation Strategy Generation
-- Procurement Report Generation
-- Report Download
-- Modern Streamlit Dashboard
+## Structured Procurement Analysis
+<img width="1035" height="851" alt="image" src="https://github.com/user-attachments/assets/fbec39cb-6f40-4933-b3a5-4f4a9169b1f9" />
 
 ---
 
-## Roadmap
+## Negotiation Strategy
+<img width="1022" height="798" alt="image" src="https://github.com/user-attachments/assets/87cdaa3c-3449-404e-846c-0de7035adcf8" />
 
-### Version 1.1
+---
 
+## Procurement Report
+<img width="980" height="841" alt="image" src="https://github.com/user-attachments/assets/d10ee122-6027-4a2b-bf03-e8528abd1e98" />
+
+---
+
+## Quotation Comparison
+<img width="979" height="849" alt="image" src="https://github.com/user-attachments/assets/0aa647b4-d210-46ec-a79a-92b72d05bf78" />
+
+---
+# Current Version
+
+## Version 1.1
+
+Implemented functionality:
+
+- TXT document support
 - PDF document support
-- DOCX export
-- Excel export
-- Improved report templates
-- Dashboard visualizations
-- Enhanced prompt engineering
-- Additional procurement business rules
+- AI document summarization
+- Structured procurement data extraction
+- Procurement dashboard
+- Business rule engine
+- Supplier quotation comparison
+- Negotiation strategy generation
+- Procurement report generation
+- Professional PDF export
+- Modern Streamlit user interface
+- Modular project architecture
+- Error handling
+- Session state management
 
 ---
 
-## License
+# Future Improvements
+
+Planned enhancements include:
+
+- DOCX report export
+- Excel export
+- Interactive procurement dashboards
+- Additional procurement business rules
+- OCR support for scanned PDFs
+- Supplier scoring dashboard
+- Multi-language document support
+
+---
+
+# License
 
 This project is licensed under the MIT License.
 
 ---
 
-## Author
+# Author
 
 **Sascha Knies**
 
-GitHub:
+GitHub
+
 https://github.com/SaschaK93
