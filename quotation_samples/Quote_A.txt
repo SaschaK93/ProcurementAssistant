@@ -1,0 +1,6 @@
+Supplier: ABC Metals
+Material: Steel Plates
+Price: 1200 USD per ton
+Delivery Time: 9 weeks
+Price Validity: 30 days
+Price Change: 15

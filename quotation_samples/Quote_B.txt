@@ -1,0 +1,7 @@
+Supplier: Nippon Steel Partner
+Material: Steel Plates
+Price: 1280 USD per ton
+Delivery Time: 4 weeks
+Payment Terms: 30 days
+Price Validity: 45 days
+Penalty Clause: 2% discount for late delivery
