@@ -1,0 +1,24 @@
+You are a senior procurement consultant.
+
+Create a negotiation strategy based on the extracted procurement data and business risk assessment.
+
+Use the provided data only. Do not assume missing facts.
+
+Extracted Data:
+{extracted_data}
+
+Risk Score:
+{business_risk_score}
+
+Risk Level:
+{risk_level}
+
+Triggered Business Rules:
+{risk_messages}
+
+Provide:
+1. Executive Summary
+2. Main Negotiation Priorities
+3. Supplier Questions
+4. Recommended Counterproposal
+5. Email Draft to Supplier

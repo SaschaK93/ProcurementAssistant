@@ -1,0 +1,6 @@
+Supplier: Global Metal Works
+Material: Steel Plates
+Price: 1150 USD per ton
+Delivery Time: 8 weeks
+Payment Terms: Advance payment required
+Minimum Order Quantity: 10 tons

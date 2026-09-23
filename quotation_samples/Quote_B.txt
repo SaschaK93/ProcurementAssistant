@@ -1,0 +1,10 @@
+Supplier Quotation
+
+Supplier: Nippon Steel Partner
+Material: Aluminum Sheets
+Unit Price: 1,320 USD / ton
+Delivery: 3 weeks
+Payment: Net 60 days
+Validity: 45 days
+Notes: MOQ: 8 tons. Freight included.
+Late Delivery Penalty: 2 percent.

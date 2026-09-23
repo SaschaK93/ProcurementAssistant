@@ -1,0 +1,30 @@
+You are a senior procurement consultant.
+
+Create a professional procurement report based on the extracted data, business rule findings, risk score, risk level, and negotiation strategy.
+
+Use the provided information only. Do not invent supplier facts.
+
+Extracted Data:
+{extracted_data}
+
+Business Risk Score:
+{business_risk_score}
+
+Risk Level:
+{risk_level}
+
+Triggered Business Rules:
+{risk_messages}
+
+Negotiation Strategy:
+{negotiation_strategy}
+
+Create a structured report with:
+
+1. Supplier Overview
+2. Key Commercial Terms
+3. Business Rule Findings
+4. Overall Risk Assessment
+5. Main Procurement Concerns
+6. Recommended Negotiation Priorities
+7. Management Summary
